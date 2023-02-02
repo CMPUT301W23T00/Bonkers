@@ -1,7 +1,7 @@
-public class Rhombicosidodecahedron extends Shape{
-    public String color = 'blue';
+import android.graphics.drawable.shapes.Shape;
 
-    public Rhombicosidodecahedron(int x, int y){
-        super(x, y);
+public class Rhombicosidodecahedron extends Shape {
+    public Rhombicosidodecahedron(int x, int y, String color) {
+        super(x, y, color);
     }
 }
